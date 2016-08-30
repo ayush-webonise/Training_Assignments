@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header{
+	background-color: grey;
+	padding: 7.5px 0px;
+
+}
+
+.container{
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.logo{
+	width: 140px;
+	height: 35px;
+	background-color: #ff8000;
+	margin-left: 40px;
+	float: left;
+}
+
+
+.nav{
+	float: left;
+    margin-left: 20px;
+}
+
+.header ul li{
+	float: left;
+}
+
+
+.header ul li a{
+	color: #aaaaaa;
+	font-size: 18px;
+	margin-left: 30px;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+.board{
+	background-color: #71c4ea;
+	height: 485px;
+}
+
+.clear{
+	clear: both;
+}
+
+.howItWorks{
+	padding-top: 64px;
+	text-align: center;
+}
+
+.howItWorks h1{
+	font-size: 36px;
+	text-align: center;
+}
+
+.howItWorks ul{
+	margin-top: 70px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 110px;
+}
+
+.howItWorks ul li{
+	float: left;
+	margin-left: 75px;
+	width: 170px;
+}
+
+.howItWorks ul li:first-child{
+	margin-left: 0px;
+
+}
+
+.howItWorks ul li p{
+	margin-top: 18px;
+	font-size: 18px;
+	color: #888888;
+	}
+
+.circleBase{
+	border-radius: 50%;
+	background-color: #efefef;
+	height: 140px;
+	width: 140px;
+	text-align: center;
+	display: inline-block;
+}
+
+.footer{
+	background-color: #ECECEC; 
+	
+}
+
+.footer ul{
+	text-align: center;
+}
+
+.footer ul li{
+	display: inline-block;
+
+}
+
+.footer li a{
+	font-size: 16px;
+	color: #FF8000;
+    margin-left: 10px;
+ text-decoration: none;
+ font-weight: bold;
+ line-height: 40px;
+}
+
+.footer ul li a.active{
+	color: black;
+}
+
+.footer li a:hover{
+	color: #444444;
+}
