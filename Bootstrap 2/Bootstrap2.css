@@ -1,0 +1,254 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.mainBody{
+	background-color: #fcfcfc;
+}
+
+.header{
+	height: 54px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.headerLogo{
+	margin-top: 5px;
+}
+
+.headerNavbar{
+	background-color: white;
+	height: 54px;
+}
+
+.headerNavbar .navbar-nav>li>a{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.headerNavbar li a{
+	line-height: 54px;
+}
+
+
+.mainCustomerButton{
+	width: 180px;
+	height: 30px;
+	background-color: #1166ee;
+	margin-top: 0;
+	color: white;
+	font-size: 12px;
+	border-radius: 15px;
+}
+
+.rightNavbar{
+	margin-right: 0;
+}
+
+.rightNavbar li:last-child{
+	margin-right: 40px;
+	margin-top: 5px;
+}
+
+.customerName{
+	font-weight: bold;
+	font-size: 14px;
+	color: #222;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.customerEmail{
+	color: #666;
+	font-size: 11px;
+}
+
+.content{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.belowHeader span{
+	font-size: 18px;
+	color: #333;
+}
+
+.addAnotherButton{
+	background-color: white;
+	border-color: #1166ee;
+	color: #1166ee;
+	margin-left: 20px;
+	border-radius: 0;
+}
+
+.col-sm-4{
+	border: 1px solid lightgrey;
+	height: 369px;
+	width: 370px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-left: 0;
+	pa
+}
+
+.thirdBox{
+	margin-right: 0;
+}
+
+.companyLogo{
+	height: 90px;
+	width: 369px; 
+	border-bottom: 1px solid lightgrey;
+	text-align: center;
+}
+
+.belowLogo{
+	padding: 15px;
+}
+
+
+.flipkartLogo{
+	max-height: 70px;
+	vertical-align:middle;
+	margin: 10px auto;
+}
+
+.companyName{
+	font-size: 18px;
+	color: #3333;
+}
+
+.lastUpdated{
+	font-size: 14px;
+	color: #aaaaaa;
+}
+
+.cardInfo{
+	margin-bottom: 10px;
+}
+
+.tickets{
+	font-size: 16px;
+	color: #1166ee;
+}
+
+.ticketsDiv{
+	margin-bottom: 10px;
+}
+
+.severity{
+	margin-bottom: 10px;
+}
+
+.numOfTickets{
+	font-size: 48px;
+	color: #1166ee;
+}
+
+.severity1{
+	font-size: 14px;
+	color: #ff0000;
+}
+
+.severity1Num{
+	font-size: 24px;
+	color: #ff0000;
+}
+
+.severity2{
+	font-size: 14px;
+	color: #333333;
+}
+
+.severity2Num{
+	font-size: 24px;
+	color: #1166ee;
+}
+
+.assets{
+	font-size: 16px;
+	color: #333333;
+}
+
+.assetsNum{
+	font-size: 30px;
+	color: #1166ee;
+}
+
+.alerts{
+	font-size: 16px;
+	color: #333333;
+}
+
+.alertsNum
+{
+	font-size: 30px;
+	color: #1166ee;
+}
+
+.viewDetails{
+	margin-top: 50px;
+}
+
+.footer{
+	border-top: 1px solid lightgrey;
+}
+
+.footerList li{
+	display: inline-block; 
+	margin-right: 10px;
+	color: #666;
+	font-size: 12px;
+}
+
+.footerContainer{
+	padding: 15px;
+}
+
+.footerList{
+	text-align: center;
+}
