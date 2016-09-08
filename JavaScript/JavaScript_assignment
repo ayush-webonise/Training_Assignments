@@ -1,0 +1,39 @@
+//Set Value
+function setInStorage(obj, key, value){ 
+	function setKeyValue(key, value){ 
+		this.setItem(key, value);
+	}
+	
+	var binder_variable = setKeyValue.bind(obj);
+	binder_variable(key, value);
+}
+
+//Get Value
+function getInStorage(obj, key){ 
+	function getKeyValue(key){ 
+		return this.getItem(key);
+	}
+	
+	var binder_variable = getKeyValue.bind(obj);
+	console.log(binder_variable(key));
+}
+
+//Return Length
+function lengthOfStorage(obj){
+	function getLength(){
+		return this.length;
+	}
+
+	var binder_variable = getLength.bind(obj);
+	console.log(binder_variable());
+}
+
+//Remove All
+function clearStorage(obj){
+	function removeAll(){
+		return this.clear();
+	}
+
+	var binder_variable = removeAll.bind(obj);
+	binder_variable();
+}
